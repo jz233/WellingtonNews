@@ -1,0 +1,48 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="2dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_item_pic"
+            android:layout_width="90dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+             />
+
+        <TextView
+            android:id="@+id/tv_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/iv_item_pic"
+            android:textColor="#D000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_pub_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/tv_item_text"
+            android:layout_toRightOf="@id/iv_item_pic" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

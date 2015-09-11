@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/title_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <!-- back | slidingmenu -->
+
+    <ImageButton
+        android:id="@+id/imgbtn_left"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside" />
+
+    <!-- title bar text -->
+  <!--  <TextView
+        android:id="@+id/txt_title"
+        style="@style/style_title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="" />-->
+
+    <!-- textsize button -->
+
+    <ImageButton
+        android:id="@+id/imgbtn_right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside" />
+
+    <!-- offline button -->
+
+    <ImageButton
+        android:id="@+id/btn_right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside" />
+
+</LinearLayout>

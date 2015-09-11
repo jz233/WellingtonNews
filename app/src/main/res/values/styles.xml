@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+        <item name="colorPrimary">@color/main_blue_light</item>
+        <item name="colorPrimaryDark">@color/main_blue_dark</item>
+        <item name="colorAccent">@color/main_blue_light</item>
+
+        <!-- ToolBar的Title 和 Spinner文本颜色-->
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+
+        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
+        <item name="android:actionMenuTextColor">@color/abc_primary_text_material_light</item>
+        <!-- overflow三个点的颜色，最左边三条线的颜色，TabLayout未选中Tab的颜色 -->
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+
+    </style>
+
+    <style name="Toolbar" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:background">@color/main_blue_light</item>
+    </style>
+    <style name="Toolbar_Popup" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:background">@color/main_blue_light</item>
+    </style>
+
+    <style name="MyDarkToolbarStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/main_blue_light</item>
+        <item name="android:textColor">@color/main_blue_light</item>
+    </style>
+
+</resources>
