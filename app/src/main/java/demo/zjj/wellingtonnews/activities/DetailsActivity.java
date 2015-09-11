@@ -71,7 +71,7 @@ public class DetailsActivity extends BaseActivity {
             iv_detail_pic.setDefaultImageResId(R.drawable.wordel);
 //        }
         tv_detail_name.setText(newsitem.name);
-        tv_detail_name.setText(newsitem.description);
+        tv_detail_desc.setText(newsitem.description);
     }
 
     @Override

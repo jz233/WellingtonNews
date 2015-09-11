@@ -40,7 +40,7 @@ public class ContentFragment extends BaseFragment {
     private String[] categories = {"Business","Education","Events","Government"};
     private List<String> cityList;
     private String[] cities;
-    private String[] areas = {"Brooklyn","Newtown"};
+    private String[] areas = {"Brooklyn","Kilbirnie","Miramar","Newtown"};
     private int current_selected_area_position = 0;
     private CustomPagerAdapter adapter;
     private List<Fragment> pagerList = new ArrayList<>();
